@@ -13,12 +13,7 @@ class ProjectEuler9
 
   @@sum = 1000
 
-
-  def initialize()
-
-  end
-
-  def find_triplet()
+  def find_triplet
 
     found_a, found_b, found_c = 0, 0, 0
 

@@ -1,3 +1,5 @@
+#!/usr/bin/ruby
+
 #
 # PROJECT EULER PROBLEM NO. 25 - http://projecteuler.net/problem=25
 #
@@ -41,7 +43,4 @@ module ProjectEuler25
   end
 end
 
-
-if __FILE__ == $0
-  puts "Solution to Project Euler no. 25 is : #{ProjectEuler25.solve}"
-end
+puts ProjectEuler25.solve
